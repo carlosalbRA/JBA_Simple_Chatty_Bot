@@ -26,5 +26,14 @@ public class SimpleBot {
         int age        = (remainder1 * 70 + remainder2 * 21 + remainder3 * 15) % 105;
 
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
+        System.out.println("Now I will prove to you that I can count to any number you want.");
+
+        int numberCount = scanner.nextInt();
+
+        for (int iterator = 0; iterator <= numberCount; iterator++) {
+            System.out.println(iterator + "!");
+        }
+
+        System.out.println("Completed, have a nice day!");
     }
 }
